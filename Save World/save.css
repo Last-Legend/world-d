@@ -1,0 +1,176 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ body
+ {
+     background: #000;
+ }
+ section
+ {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 100px ;
+    }
+section header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+section header .logo
+{
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section header .logo:hover
+{
+    color: rgb(240, 10, 67);
+}
+
+section header .toggle
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url(menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+ 
+
+.bg
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+.bird
+{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    max-height: 80%;
+    z-index: 100;
+}
+.content
+{
+    position: relative;
+    left: 100px;
+    max-width: 600px;
+    z-index: 10;
+}
+.content h2
+{
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 400;
+    line-height: 2em;
+}
+.content h2 span
+{
+    font-weight: 800;
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    color: aqua;
+}
+.content p
+{
+    color: #fff;
+    margin-top: -15px;
+}
+.content a
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: rgb(252, 117, 7);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.sci
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: rotateY(-50%);
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: rgba(red, green, blue, alpha);
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    display: inline-block;
+    transform: scale(0.5);
+    opacity: 0.5;
+}
+.sci li a:hover
+{
+    opacity: 1;
+    color: rgb(255, 0, 234);
+    width: 20px;
+    height: 20px;
+}
+
+.textblocks
+{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding-bottom: 20px;
+}
+.textblocks .block
+{
+    position: relative;
+    padding: 20px;
+    margin-right: 40px;
+    max-width: 500px;
+    background: rgba(0, 255, 0, 0.2 );
+    
+}
+.textblocks .block h3
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(241, 206, 11);
+}
+.textblocks .block p
+{
+    color: #fff;
+}
